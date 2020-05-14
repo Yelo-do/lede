@@ -176,7 +176,6 @@ jobs:
           # CONFIG_PACKAGE_kmod-mt76x2 is not set
           # CONFIG_PACKAGE_kmod-mt76x2-common is not set
           EOF
-	  #
           # ========================固件定制部分结束========================
           # 
           sed -i 's/^[ \t]*//g' ./.config
